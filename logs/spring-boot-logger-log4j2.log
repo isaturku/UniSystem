@@ -1,0 +1,30 @@
+2022-10-19 00:12:09,412 INFO o.s.b.StartupInfoLogger [main] Starting LibraryApplication using Java 17.0.1 on LAPTOP-U1HUVCQG with PID 24248 (C:\Users\turku\OneDrive\Desktop\gs-multi-module-main\complete\app\target\classes started by turku in C:\Users\turku\OneDrive\Desktop\gs-multi-module-main\complete)
+2022-10-19 00:12:09,423 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-19 00:12:10,077 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 00:12:10,128 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2022-10-19 00:12:11,358 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-19 00:12:11,381 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 00:12:11,382 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-19 00:12:11,383 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-10-19 00:12:11,523 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-19 00:12:11,523 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2037 ms
+2022-10-19 00:12:11,823 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 00:12:11,913 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-10-19 00:12:12,269 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 00:12:12,392 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-10-19 00:12:12,543 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-10-19 00:12:12,574 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-10-19 00:12:13,701 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 00:12:13,719 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 00:12:14,992 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 00:12:15,555 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-19 00:12:15,677 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e75bef1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@169d5567, org.springframework.security.web.context.SecurityContextPersistenceFilter@65f96d58, org.springframework.security.web.header.HeaderWriterFilter@79454d8e, org.springframework.security.web.authentication.logout.LogoutFilter@4353db40, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@24d73c51, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47c422d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52a3eef8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37d8562f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e489957, org.springframework.security.web.session.SessionManagementFilter@69988d42, org.springframework.security.web.access.ExceptionTranslationFilter@7eb94590, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@128ca7af]
+2022-10-19 00:12:16,023 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 00:12:16,048 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 00:12:16,061 INFO o.s.b.StartupInfoLogger [main] Started LibraryApplication in 7.018 seconds (JVM running for 8.066)
+2022-10-19 00:12:16,234 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(14)-192.168.0.2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 00:12:16,235 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(14)-192.168.0.2] Initializing Servlet 'dispatcherServlet'
+2022-10-19 00:12:16,236 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(14)-192.168.0.2] Completed initialization in 1 ms
+2022-10-19 00:15:02,657 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 00:15:02,713 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-10-19 00:15:02,757 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
